@@ -2,7 +2,7 @@
 title: "Sigmoidal synaptic learning produces mutual stabilization in chaotic FitzHugh-Nagumo model"
 collection: publications
 permalink: /publication/Parker_Short_2020_chaos
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
+excerpt: 'This demonstrates how a sigmoidal synaptic learning rule can produce mutual stabiliztion between two interacting bidirectional chaotic FitzHugh-Nagumo neurons.'
 date: 2020-06-01
 venue: 'Chaos: An Interdisciplinary Journal of Nonlinear Science'
 paperurl: 'https://doi.org/10.1063/5.0002328'
