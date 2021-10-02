@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "John Parker, PhD"
+title: "Welcome and Hello!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
