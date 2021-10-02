@@ -1,20 +1,18 @@
 ---
-title: "Teaching experience 2"
+title: "University of Pittsburgh: Instructor"
 collection: teaching
-type: "Workshop"
+type: "Undergraduate courses"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+venue: "University of Pittsburgh, Department of Mathematics"
+date: 2021-09-01
+location: "Pittsburgh, Pennslyvania, U.S.A."
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+As a Postdoctoral Associate at the University of Pittsburgh, I was the instructor of record for one course each semester. Below are the courses and respective semesters, followed by the official University of Pittsburgh description.
 
-Heading 1
-======
+### MATH 0125: Business for Calculus 1 (Fall 2021)
+This is the first half of a two course sequence (0125-0126). It will cover concepts such as limits, continuity, differentiation and integration. Maximization and minimization of functions will also be covered, with emphasis placed on applications in the social sciences, especially business and economics.
 
-Heading 2
-======
 
-Heading 3
-======
+
+
