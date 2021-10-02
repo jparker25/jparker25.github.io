@@ -1,5 +1,5 @@
 ---
-title: "UNH: Teaching Assistant"
+title: "University of New Hampshire: Teaching Assistant"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/unh_ta
