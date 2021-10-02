@@ -55,6 +55,7 @@ Work experience
 
 Awards and Fellowships
 ======
+* UCR Contributed Talk Award for Mathematical Neuroscience, SMB2021 Conference
 * Summer Teaching Assistant Fellowship (STAF), Summer 2020
   * Award Amount: $3150, University of New Hampshire
   
