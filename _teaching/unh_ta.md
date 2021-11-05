@@ -8,7 +8,7 @@ date: 2016-08-01
 location: "Durham, NH, U.S.A."
 ---
 
-Teaching assistant from Fall 2016 - Spring 2021 in the Integrated Applied Mathematics program, specifically working with the Department of Physics at the University of New Hampshire. As a teaching assistant, my role was to run either recitations or labs relating to the course, grade homework assignments and final exams, as well as hold review sessions. Below are the courses and semesters where I was the teaching assistant followed by the official UNH description of the course.
+Teaching assistant from Fall 2016 - Spring 2021 in the Integrated Applied Mathematics program, specifically working with the Department of Physics at the University of New Hampshire. As a teaching assistant, my role was to run either recitations or labs relating to the course, grade homework assignments and final exams, as well as hold review sessions. 
 
 ### PHYS 401: Introduction to Physics I (Fall 2016, 2018, 2019)
 Broad survey of classical and modern physics. Designed to enable students to appreciate the role of physics in today's society and technology. Emphasizes the fundamental laws of nature on which all science is based, with some examples of interest to biologists. Knowledge of high school algebra, geometry, and trigonometry essential. 
