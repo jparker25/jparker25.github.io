@@ -1,4 +1,3 @@
-
 ---
 title: "Cupolets in a Chaotic Neuron Model"
 collection: publications
