@@ -1,0 +1,11 @@
+---
+title: "Classifying and Modeling Diverse Responses of Neurons that Integrate Inhibitory Inputs"
+collection: talks
+type: "Oral Presentation"
+permalink: /talks/2022_07_12_siamls22
+venue: "SIAM Life Sciences 2022, Pittsburgh, PA, 2022"
+date: 2022-07-12
+location: "David L. Lawrence Convention Center"
+---
+
+Oral presentation in the minisymposium titled Data Driven Neural Modeling that was chaired by Jonathan Rubin and myself. The presentation focused on a new classification scheme for neural responses to optogenetic stimulation. The classification scheme was discussed then results were shown pertaining to SNr neural responses to optogenetic stimulation of the GPe in mice.
