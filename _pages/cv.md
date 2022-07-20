@@ -15,8 +15,9 @@ redirect_from:
   * Teaching one course per semester.
 
 ### Education
-* B.S. in Physics, Elon University, 2014
 * Ph.D in Applied Mathematics, University of New Hampshire, 2021
+  * Advisor: Professor Kevin Short  
+* B.S. in Physics, Elon University, 2014
 
 ### Publications
   <ul>{% for post in site.publications reversed %}
@@ -77,7 +78,7 @@ redirect_from:
   * MATLAB
   * Mathematica
   * Julia
-  * C 
+  * C,C++
 * Tools:
   * Latex
   * Git/GitHub
