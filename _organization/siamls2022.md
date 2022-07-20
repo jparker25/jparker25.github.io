@@ -4,7 +4,7 @@ collection: organization
 type: "Mini-symposium"
 permalink: /organization/siamls2022
 venue: "SIAM Life Sciences 2022, Pittsburgh, PA, 2022"
-date: 2022-07
+date: 2022-07-11
 location: "David L. Lawrence Convention Center"
 ---
 
