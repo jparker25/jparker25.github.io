@@ -19,22 +19,22 @@ redirect_from:
 * Ph.D in Applied Mathematics, University of New Hampshire, 2021
 
 ### Publications
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 ### Talks
-  <ul>{% for post in site.talks %}
+  <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
 ### Organization
-  <ul>{% for post in site.organization %}
+  <ul>{% for post in site.organization reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 ### Teaching
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
  
