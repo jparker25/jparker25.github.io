@@ -28,6 +28,11 @@ redirect_from:
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
+### Organization
+  <ul>{% for post in site.organization %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
 ### Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
