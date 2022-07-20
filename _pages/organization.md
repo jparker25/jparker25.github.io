@@ -7,6 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.orgnization reversed %}
+{% for post in site.organization reversed %}
   {% include archive-single.html %}
 {% endfor %}
