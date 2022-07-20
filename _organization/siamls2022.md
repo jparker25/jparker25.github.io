@@ -1,0 +1,11 @@
+---
+title: "Data Driven Neural Modeling"
+collection: organization
+type: "Mini-symposium"
+permalink: /organization/siamls2022
+venue: "SIAM Life Sciences 2022, Pittsburgh, PA, 2022"
+date: 2022-07
+location: "David L. Lawrence Convention Center"
+---
+
+Co-chaired the mini-symposium titled Data Driven Neural Modeling with Jonathan Rubin as part of the SIAM Life Sciecnes 2022 conference in Pittsburgh, PA. We had two sessions over two days with four speakers each for a total of eight speakers. 
