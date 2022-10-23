@@ -76,7 +76,7 @@ social:
 # Analytics
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
-  google:
+  google: G-5B934MECPV
     tracking_id          :
 
 
