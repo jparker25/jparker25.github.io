@@ -5,7 +5,7 @@ permalink: /publication/Parker_Short_2022
 excerpt: 'This paper reports the first finding of cupolets in a chaotic Hindmarsh–Rose neural model. '
 date: 2022-11-02
 venue: 'Chaos: An Interdisciplinary Journal of Nonlinear Science'
-paperurl: 'https://doi.org/10.1063/5.0101667'
+paperurl: '[https://doi.org/10.1063/5.0101667](https://doi.org/10.1063/5.0101667)'
 citation: 'John E. Parker <i>and</i> Kevin M. Short, "Cupolets in a chaotic neuron model", Chaos 32, 113104 (2022)
 ---
 
