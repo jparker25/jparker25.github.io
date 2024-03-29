@@ -1,2 +1,5 @@
 _site/
-
+.DS_Store
+Gemfile.lock
+_includes/.DS_Store
+assets/.DS_Store
