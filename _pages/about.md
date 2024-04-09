@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome and Hello!"
+title: "Welcome!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,12 +8,33 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my webpage! Currently, I am a Postdoctoral Associate in the [Department of Mathematics at the University of Pittsburgh](https://www.mathematics.pitt.edu) working with [Dr. Jonathan Rubin](https://www.mathematics.pitt.edu/people/jonathan-rubin). In this position, I am working with Dr. Rubin on mathematical neuroscience research that focuses on understanding the subtantia nigra pars reticulata (SNr) under dopamine depletion. Besides the quick blurbs below, you can check out the tabs up above to learn more about myself and my research. Feel free to reach out and connect!
+Welcome to my professional webpage. I currently hold a position as a Postdoctoral Associate in the [Department of Mathematics at the University of Pittsburgh](https://www.mathematics.pitt.edu), collaborating with [Dr. Jonathan Rubin](https://www.mathematics.pitt.edu/people/jonathan-rubin). Our research focuses on exploring the substantia nigra pars reticulata (SNr) and its response to dopamine depletion using a biophysical dynamical model. This work is conducted in partnership with the [Gittis lab](https://labs.bio.cmu.edu/gittis/) at [Carnegie Mellon University](https://www.cmu.edu). For more detailed information about my academic and research endeavors, please explore the various tabs on this site. I am always open to engaging with others in the scientific community, so please do not hesitate to contact me.
 
-### Research Interests
-As a quick overview, my research interests include dynamical systems, chaos theory, mathematical biology, and computational neuroscience. I especially enjoy building computational models and simulations for different mathematical models. Since my physics undergraduate days at [Elon University](https://www.elon.edu/u/academics/arts-and-sciences/physics/), a research "throughline" has always been mathematical and computational neuroscience, and this has been the focus of my doctoral and postdoctoral work. 
+### Upcoming Events
+A quick list of upcoming events:
+* 11th June - 14th June, 2024 : Presenting a contributed talk at the [International Conference on Mamthematical Neuroscience](https://www.danieleavitabile.com/icmns24/) at [Unviersity College Dublin](https://www.ucd.ie), Dublin, Ireland (exact date TBD).
 
-### Doctoral Work
-I received my doctorate in Applied Mathematics through the [Integrated Applied Mathematics Program at the University of New Hampshire](https://ceps.unh.edu/integrated-applied-mathematics) under the supervision of [Dr. Kevin Short](https://findscholars.unh.edu/display/kmshort). My doctoral work focused on mutual stabilization in chaotic neurons. Mutual stabilization can occur when two chaotic systems interact a certain way such that the individual systems are driven to periodic orbits due to nature of the interaction. Mutual stabilization was previously shown through interacting cupolets (chaotic unstable periodic orbit-lets) formed from two double scroll oscillators. The first major result of my dissertation demonstrated that two FitzHugh-Nagumo neurons, interacting bidirectionally, can exhibit chaotic behavior. This chaotic behavior can be controlled and shown to mutually stabilize when a sigmoidal synaptic learning rule is implemented. This work was published [here](https://doi.org/10.1063/5.0002328). The second major result focused on showing the existence of cupolets in a chaotic Hindmarsh-Rose neuron. The properties of these cupolets were then explored and it was demonstrated how mutual stabilization can be achieved through two interacting Hindmarsh-Rose neurons. These results were published in my dissertation which can be found [here (open-access)](https://unh.idm.oclc.org/login?url=https://www-proquest-com.unh.idm.oclc.org/dissertations-theses/existence-mutual-stabilization-chaotic-neural/docview/2559455643/se-2?accountid=14612).
+### Background
+I earned my PhD in Applied Mathematics from the [University of New Hampshire](https://ceps.unh.edu/integrated-applied-mathematics), where I was mentored by [Dr. Kevin Short](https://findscholars.unh.edu/display/kmshort) and specialized in nonlinear dynamics. My doctoral research centered on the concept of stabilizing chaos in neural models through mutual stabilization, a process detailed further in my [publications](/publications/). I have a strong fondness for developing computational models and visualization tools to facilitate the analysis of mathematical models.
 
+Beginning with my undergraduate studies in Physics at [Elon University](https://www.elon.edu/u/academics/arts-and-sciences/physics/), I have consistently engaged in mathematical and computational neuroscience, which remained the focus throughout my doctoral and postdoctoral research. My broader academic interests span mathematical biology, computational neuroscience, and climate dynamics. Moving forward, I am contemplating a shift towards climate research in my future professional endeavors, while still engaging in neuroscience through side projects.
 
+### Postdoctoral Research (2021 - 2024)
+During my postdoctoral tenure at the University of Pittsburgh, I engaged in a mathematical and computational neuroscience project to better understand the integrative mechanisms of the substantia nigra pars reticulata (SNr), a critical output nucleus of the basal ganglia. This project emphasized understanding the SNr’s response to various inhibitory inputs, commonly referred to as the direct and indirect pathways, under both normative and dopamine-depleted conditions, the latter being a key characteristic of Parkinson's disease pathology.
+
+The foundational objective of this research was to interpret and extend the experimental findings detailed in prior studies, notably those by [Mastro, et al., 2017](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5546121/) and [Freeze, et al., 2013](https://pubmed.ncbi.nlm.nih.gov/24259575/), as well as new experimental results from the [Gittis lab](https://labs.bio.cmu.edu/gittis/). Our approach involved refining a biophysically detailed model of the SNr, initially presented in [Phillips, et al., 2020](https://elifesciences.org/articles/55592). My specific contributions to this body of work include:
+
+1. Developing the STReaC toolbox, a novel software framework designed to facilitate nuanced analysis of neuronal spike train responses to stimuli. Crafted in Python, this tool has been [published](/publication/Parker_Aristieta_Gittis_Rubin_2023) and is accessible with a public repository at [STReaC toolbox](https://github.com/jparker25/streac), for which I will continue to provide support and updates.
+2. Enhancing the existing SNr model by:
+   - Incorporating stochastic elements into the soma and dendritic current equations.
+   - Modulating tonic conductances through stochastic processes.
+   - Introducing heterogeneity within the network, particularly in conductance strengths.
+
+We are in the process of drafting a manuscript that will detail these model advancements and their experimental corroboration under both normal and dopamine-depleted conditions.
+
+### Doctoral Research (2016 - 2021)
+My doctoral research explored the phenomenon of mutual stabilization in chaotic neuronal systems. Mutual stabilization refers to the process where two chaotic systems, upon interaction in a specific manner, are steered towards periodic orbits due to the nature of their interaction. This concept was initially illustrated using cupolets—chaotic unstable periodic orbit-lets—emerging from the interaction of two double scroll oscillators.
+
+A significant finding of my dissertation was that two FitzHugh-Nagumo neurons, when interacting bidirectionally, can exhibit chaotic behavior. This chaos was managed and led to mutual stabilization by implementing a sigmoidal synaptic learning rule. The details of this research have been [published](https://doi.org/10.1063/5.0002328).
+
+Another major contribution of my doctoral work was demonstrating the presence of cupolets in the chaotic dynamics of Hindmarsh-Rose neurons ([Parker and Short, 2022](/publication/Parker_Short_2022)) and how these cupolets can lead to mutual stabilization in interacting neuronal models ([Parker and Short, 2023, open-access](/publication/Parker_Short_2023)).
