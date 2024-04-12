@@ -7,5 +7,3 @@ venue: "Math Bio Seminar"
 date: 2024-02-22
 location: "University of Pittsburgh"
 ---
-
-Oral presentation for the Math Bio seminar series at the University of Pittsburgh. The talk focused on the latest progress during my postdoc, disucssing new results on mathematical modeling of in-vivo SNr responses to optogentic stimulation.
