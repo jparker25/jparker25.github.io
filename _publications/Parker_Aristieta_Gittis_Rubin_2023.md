@@ -5,7 +5,7 @@ permalink: /publication/Parker_Aristieta_Gittis_Rubin_2023
 date: 2023-10-30
 venue: 'Journal of Neuroscience Methods'
 paperurl: 'https://doi.org/10.1016/j.jneumeth.2023.110000'
-citation: 'John E. Parker et al. "Introducing the STReaC (Spike Train Response Classification) toolbox". In: <i>Journal of Neuroscience Methods</i> (2023), p. 110000. doi: https://doi.org/10.1016/j.jneumeth. 2023.110000'
+citation: '<b>John E. Parker</b>, Asier Aristieta, Aryn H. Gittis, and Jonathan E. Rubin. "Introducing the STReaC (Spike Train Response Classification) toolbox". In: <i>Journal of Neuroscience Methods</i> 401 (Jan. 2024), p. 110000. doi: 10.1016/j.jneumeth.2023.110000'
 abstract: '<i>Background:</i>
 This work presents a toolbox that implements methodology for automated classification of diverse neural responses to optogenetic stimulation or other changes in conditions, based on spike train recordings.
 
