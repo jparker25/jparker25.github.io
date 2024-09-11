@@ -10,10 +10,6 @@ redirect_from:
 
 Welcome to my professional webpage. I currently hold a position as a Postdoctoral Associate in the [Department of Mathematics at the University of Pittsburgh](https://www.mathematics.pitt.edu), collaborating with [Dr. Jonathan Rubin](https://www.mathematics.pitt.edu/people/jonathan-rubin). Our research focuses on exploring the substantia nigra pars reticulata (SNr) and its response to dopamine depletion using a biophysical dynamical model. This work is conducted in partnership with the [Gittis lab](https://labs.bio.cmu.edu/gittis/) at [Carnegie Mellon University](https://www.cmu.edu). For more detailed information about my academic and research endeavors, please explore the various tabs on this site. I am always open to engaging with others in the scientific community, so please do not hesitate to contact me.
 
-### Upcoming Events
-A quick list of upcoming events:
-* 11th June - 14th June, 2024 : Presenting a contributed talk at the [International Conference on Mamthematical Neuroscience](https://www.danieleavitabile.com/icmns24/) at [Unviersity College Dublin](https://www.ucd.ie), Dublin, Ireland (exact date TBD).
-
 ### Background
 I earned my PhD in Applied Mathematics from the [University of New Hampshire](https://ceps.unh.edu/integrated-applied-mathematics), where I was mentored by [Dr. Kevin Short](https://findscholars.unh.edu/display/kmshort) and specialized in nonlinear dynamics. My doctoral research centered on the concept of stabilizing chaos in neural models through mutual stabilization, a process detailed further in my [publications](/publications/). I have a strong fondness for developing computational models and visualization tools to facilitate the analysis of mathematical models.
 
