@@ -4,6 +4,7 @@ title: ""
 excerpt: "Publications"
 author_profile: true
 layout: single
+classes: wide
 ---
 Please feel free to reach out about any of the following publications.
 <br>

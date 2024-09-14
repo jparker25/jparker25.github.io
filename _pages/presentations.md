@@ -4,6 +4,7 @@ title: ""
 excerpt: "presentations"
 author_profile: true
 layout: single
+classes: wide
 ---
 A list of presentations. A * denotes invited talk, a ** denotes symposium organization, and *** denotes reward recevied.
 

@@ -4,6 +4,7 @@ excerpt: "About Me"
 title: "About Me"
 author_profile: true
 layout: single
+classes: wide
 ---
 
 Welcome to my professional webpage. I currently hold a position as a Postdoctoral Associate in the [Department of Mathematics at the University of Pittsburgh](https://www.mathematics.pitt.edu), collaborating with [Dr. Jonathan Rubin](https://www.mathematics.pitt.edu/people/jonathan-rubin). Our research focuses on exploring the substantia nigra pars reticulata (SNr) and its response to dopamine depletion using a biophysical dynamical model. This work is conducted in partnership with the [Gittis lab](https://labs.bio.cmu.edu/gittis/) at [Carnegie Mellon University](https://www.cmu.edu). For more detailed information about my academic and research endeavors, please explore the various tabs on this site. I am always open to engaging with others in the scientific community, so please do not hesitate to contact me.
