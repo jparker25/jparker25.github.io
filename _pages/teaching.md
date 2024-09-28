@@ -6,7 +6,7 @@ author_profile: true
 layout: single
 classes: wide
 ---
-# Teaching
+
 At the University of Pittsburgh, I taught in my first three semesters. While at the University of New Hampshire, I was a teaching assistant every semester in the physics department and assisted with a variety of courses. Class descriptions from the university catalog are listed below. Feel free to reach out about any questions!
 
 ***
