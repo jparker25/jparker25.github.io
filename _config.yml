@@ -114,7 +114,7 @@ analytics:
 author:
   name             : "John E. Parker, PhD"
   avatar           : "assets/images/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Visiting Assistant Professor\nDepartment of Computer Science\nWilliams College."
+  bio              : "Visiting Assistant Professor\nDepartment of Computer Science\nWilliams College"
   location         : "Williamstown, MA"
   email            : johneparkerphd@gmail.com
   links:
