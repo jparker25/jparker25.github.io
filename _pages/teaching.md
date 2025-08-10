@@ -7,11 +7,28 @@ layout: single
 classes: wide
 ---
 
-At the University of Pittsburgh, I taught in my first three semesters. While at the University of New Hampshire, I was a teaching assistant every semester in the physics department and assisted with a variety of courses. Class descriptions from the university catalog are listed below. Feel free to reach out about any questions!
+Listed below are all courses I have taught and the respective course catalog descriptions from each institution.
+<br>
+(*) Denotes courses that I designed.
 
 ***
 
-University of Pittsburgh (2021-2022, Fall 2023)
+<b>Williams College</b> (Instructor, 2025-2026)
+
+<details><summary><span style="font-size:0.75em;">CSCI 317: Foundations of Computational Neuroscience*</span></summary>
+<span style="font-size:0.75em;">
+How does the brain process information? Despite the continuous scientific pursuits to understand the brain, many questions about brain function remain unanswered. In this course, we take an interdisciplinary, hands-on approach to understanding the brain, focusing on how neural systems encode, transmit, and decode information. Students will learn foundational techniques in computational neuroscience as it pertains to simulating neuronal dynamics with canonical models such as the integrate-and-fire, Hodgkin-Huxley, and Wilson-Cowan equations, performing statistical analysis of neurological data, and examining biological neural networks and their parallels to artificial intelligence.</span>
+</details>
+
+<details><summary><span style="font-size:0.75em;">CSCI 104: Data Science and Computing for All</span></summary>
+<span style="font-size:0.75em;">
+Many of the world’s greatest discoveries and most consequential decisions are enabled or informed by the analysis of data from a myriad of sources. Indeed, the ability to wrangle, visualize, and draw conclusions from data is now a critical tool in the sciences, business, medicine, politics, other academic disciplines, and society as a whole. This course lays the foundations for quantifying relationships in data by exploring complementary computational, statistical, and visualization concepts. These concepts will be reinforced by lab experiences designed to teach programming and statistics skills while analyzing real-world data sets. This course will also examine the broader context and social issues surrounding data analysis, including privacy and ethics.
+</span>
+</details>
+
+***
+
+<b>University of Pittsburgh</b> (Instructor, 2021-2022, Fall 2023)
 
 
 <details><summary><span style="font-size:0.75em;">MATH 0290: Differential Equations</span></summary>
@@ -33,7 +50,7 @@ This is the first half of a two course sequence (0125-0126). It will cover conce
 
 ***
 
-University of New Hampshire (2016-2021)
+<b>University of New Hampshire</b> (Teaching Assistant, 2016-2021)
 
 
 <details><summary><span style="font-size:0.75em;">PHYS 408H: Honors/General Physics II</span></summary>

@@ -20,7 +20,7 @@ title                    : "Portfolio"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "John E. Parker, Ph.D."
-description              : "Postdoctoral Associate at University of Pittsburgh"
+description              : "Visiting Assistant Professor, Computer Science at Williams College"
 url                      : https://jparker25.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -112,10 +112,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "John E. Parker"
+  name             : "John E. Parker, PhD"
   avatar           : "assets/images/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Postdoctoral associate at the University of Pittsburgh."
-  location         : "Greater Boston Area"
+  bio              : "Visiting Assistant Professor\nDepartment of Computer Science\nWilliams College."
+  location         : "Williamstown, MA"
   email            : johneparkerphd@gmail.com
   links:
     - label: "Email"
