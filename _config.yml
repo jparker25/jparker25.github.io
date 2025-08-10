@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Portfolio"
+title                    : "John E. Parker"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "John E. Parker, Ph.D."
+name                     : "John E. Parker"
 description              : "Visiting Assistant Professor, Computer Science at Williams College"
 url                      : https://jparker25.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
