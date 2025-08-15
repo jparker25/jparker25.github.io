@@ -8,7 +8,7 @@ classes: wide
 ---
 <b>About Me</b><br>
 I'm currently a Visiting Assistant Professor in the [Department of Computer Science at Williams College](https://csci.williams.edu).
-I am teaching two courses this fall (Fall 2025), <a href="https://catalog.williams.edu/CSCI/detail/?strm=1261&cn=104&crsid=022117">CSCI 104: Data Science and Computer for All</a> and <a href="https://catalog.williams.edu/CSCI/detail/?strm=1263&cn=317&crsid=023092">CSCI: 317 Foundations of Computational Neurosciece</a>. CSCI 317 is a new course at Williams which I designed.
+I am teaching two courses this fall (Fall 2025), <a href="https://catalog.williams.edu/CSCI/detail/?strm=1261&cn=104&crsid=022117">CSCI 104: Data Science and Computer for All</a> and <a href="https://catalog.williams.edu/CSCI/detail/?strm=1263&cn=317&crsid=023092">CSCI: 317 Foundations of Computational Neuroscience</a>. CSCI 317 is a new course at Williams which I designed.
 
 Previously, I was a Postdoctoral Associate in the [Department of Mathematics at the University of Pittsburgh](https://www.mathematics.pitt.edu), working with [Dr. Jonathan Rubin](https://www.mathematics.pitt.edu/people/jonathan-rubin). Our research focuses on exploring the substantia nigra pars reticulata (SNr) and its response to dopamine depletion using a biophysical dynamical model. This work is conducted in collaboration with the [Gittis lab](https://labs.bio.cmu.edu/gittis/) at [Carnegie Mellon University](https://www.cmu.edu). For more detailed information about my academic and research endeavors, please explore the various tabs on this site. I am always open to engaging with others in the scientific community, so please do not hesitate to contact me.
 
