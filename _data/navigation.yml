@@ -4,6 +4,8 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Research"
     url: /research/
+  - title: "Students"
+    url: /students/
   - title: "Publications"
     url: /publications/
   - title: "Presentations"
