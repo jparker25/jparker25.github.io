@@ -10,14 +10,23 @@ A list of presentations. A (\*) denotes invited talk, a (\*\*) denotes symposium
 
 ***
 
-<details><summary>Conferences (12)</summary>
+<details><summary>Conferences (14)</summary>
+
+<span style="font-size:0.75em;">(14) Data-Driven Heterogeneous Network Assembly in the Parkinsonian Basal Ganglia</span><br><span style="font-size:0.6em;">Oral Presentation, SIAM Life Sciences 2026, Huntington Convention Center, Cleveland, OH,<i> 8 July 2026</i></span>
+<br>
+<br>
+<span style="font-size:0.75em;">(13**) Data-Driven Network Assembly in the Parkinsonian Basal Ganglia</span><br><span style="font-size:0.6em;">Oral Presentation, ICMNS 2026, McGill University, Montreal, Canada,<i> 2 June 2026</i>
+<br>
+Organized Mini-symposium: Oscillatory Transitions and Stability in Neural Networks</span>
+<br>
+<br>
 <span style="font-size:0.75em;">(12) Modeling an Output Nucleus Integrating Multiple Inhibitory Pathways</span><br><span style="font-size:0.6em;">Oral Presentation, ICMNS 2024, University College Dublin, Dublin, Ireland,<i> 11 June 2024</i></span>
 <br>
 <br>
 <span style="font-size:0.75em;">(11) Diverse responses of a basal ganglia output nucleus integrating multiple input streams in control and dopamine-depleted conditions</span><br><span style="font-size:0.6em;">Poster Presentation, CNS 2023, 32nd Annual Computational Neuroscienc Conference, Kongresshalle, Leipzig, Germany,<i> 26 July 2023</i></span>
 <br>
 <br>
-<span style="font-size:0.75em;">(10**) Information Flow in the Basal Ganglia</span><br><span style="font-size:0.6em;">Oral Presentation, SIAM Dynamical Systems, Double Tree by Hilton, Portland, Oregon,<i> 18 May 2023</i><br>
+<span style="font-size:0.75em;">(10**) Information Flow in the Basal Ganglia</span><br><span style="font-size:0.6em;">Oral Presentation, SIAM Dynamical Systems 2023, Double Tree by Hilton, Portland, Oregon,<i> 18 May 2023</i><br>
 Organized Mini-symposium: Clustering and Chimeras: Spatio-Temporal Dynamics in Biological Systems
 </span>
 <br>
