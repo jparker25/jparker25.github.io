@@ -20,7 +20,7 @@ title                    : "John E. Parker"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "John E. Parker"
-description              : "Visiting Assistant Professor, Computer Science at Williams College"
+description              : "Assistant Professor of Mathematics and Computer Science, MCLA"
 url                      : https://jparker25.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
