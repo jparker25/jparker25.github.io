@@ -114,7 +114,7 @@ analytics:
 author:
   name             : "John E. Parker, PhD"
   avatar           : "assets/images/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Visiting Assistant Professor\nDepartment of Computer Science\nWilliams College"
+  bio              : "Assistant Professor of Mathematics and Computer Science, MCLA"
   location         : "Williamstown, MA"
   email            : johneparkerphd@gmail.com
   links:
@@ -136,9 +136,6 @@ author:
     - label: "ResearchGate"
       icon: "fab fa-researchgate"
       url: "https://www.researchgate.net/profile/John_Parker21"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/_john_e_parker_"
 
 # Site Footer
 footer:
