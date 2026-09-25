@@ -24,8 +24,8 @@ I completed my undergraduate studies at [Elon University](https://www.elon.edu/u
   <ol class="path">
     <li><span class="mono">2026–</span><div><strong>Assistant Professor</strong>, Mathematics and Computer Science, Massachusetts College of Liberal Arts</div></li>
     <li><span class="mono">2025–26</span><div><strong>Visiting Assistant Professor</strong>, Computer Science, Williams College</div></li>
-    <li><span class="mono"></span><div><strong>Postdoctoral Associate</strong>, Mathematics, University of Pittsburgh</div></li>
-    <li><span class="mono">2021</span><div><strong>PhD, Applied Mathematics</strong>, University of New Hampshire</div></li>
-    <li><span class="mono"></span><div><strong>BS, Physics</strong>, Elon University</div></li>
+    <li><span class="mono">2021–26</span><div><strong>Postdoctoral Associate</strong>, Mathematics, University of Pittsburgh</div></li>
+    <li><span class="mono">2016–21</span><div><strong>PhD, Applied Mathematics</strong>, University of New Hampshire</div></li>
+    <li><span class="mono">2010–14</span><div><strong>BS, Physics</strong>, Elon University</div></li>
   </ol>
 </section>
