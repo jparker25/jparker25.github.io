@@ -3,6 +3,8 @@ layout: default
 ---
 {%- assign author = site.author -%}
 <div id="main" role="main" class="jp-main jp-main--home">
+  {%- comment -%} The theme's main.min.js looks for .page__content on every page; this empty hook keeps it from erroring without pulling in the theme's content styles. {%- endcomment %}
+  <div class="page__content" hidden></div>
   <section class="hero">
     <div class="hero__raster">{% include jp/spike-raster.svg %}</div>
     <div class="hero__inner">

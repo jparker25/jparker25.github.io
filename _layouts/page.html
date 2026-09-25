@@ -6,6 +6,8 @@ layout: default
   Front matter: title, eyebrow (small label above the title), lede (intro sentence).
 {%- endcomment -%}
 <div id="main" role="main" class="jp-main">
+  {%- comment -%} The theme's main.min.js looks for .page__content on every page; this empty hook keeps it from erroring without pulling in the theme's content styles. {%- endcomment %}
+  <div class="page__content" hidden></div>
   <article class="jp-page">
     <header class="jp-page__head">
       {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
