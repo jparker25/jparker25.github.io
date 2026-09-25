@@ -13,6 +13,46 @@ Listed below are all courses I have taught and the respective course catalog des
 
 ***
 
+<b>MCLA</b> (Instructor, 2026 - Present)
+
+<details><summary><span style="font-size:0.75em;">MATH 250: Discrete Mathematics <i></i></span></summary>
+<span style="font-size:0.75em;">
+Provides a foundation in mathematical topics central to the study of computer science, emphasizing mathematical reasoning and algorithms. Topics include propositional logic, Boolean algebra, mathematical proofs and induction, computer arithmetic, elementary combinatorics, recursion, graphs and trees, matrices, sequences and summation.</span>
+</details>
+
+<details><summary><span style="font-size:0.75em;">DATA 350: Practicing Data Science <i>(scheduled Spring 2027)</i></span></summary>
+<span style="font-size:0.75em;">
+Introduces students to data science as it is applied to various fields. Students will write computer programs to visualize and analyze large data sets, and to carry out various tests involving statistical inference. Required computer programming laboratory.</span>
+</details>
+
+<details><summary><span style="font-size:0.75em;">CSCI 101: First Year Computer Science Seminar</span></summary>
+<span style="font-size:0.75em;">
+Introduces students to the skills needed to navigate the computer science concentrations. In addition, Computer Science majors are introduced to various topics used throughout the curriculum. Topics include computer hardware, operating systems, file types, protocols, and networking.</span>
+</details>
+<details><summary><span style="font-size:0.75em;">CSCI 121: Programming in Java I <i>(scheduled Spring 2027)</i></span></summary>
+<span style="font-size:0.75em;">
+Introduces the concepts of program development using the Java programming language. Topics include variables, control structures, arrays, string manipulation and an introduction to object oriented concepts.</span>
+</details>
+
+
+<details><summary><span style="font-size:0.75em;">CSCI 122: Programming in Java II</span></summary>
+<span style="font-size:0.75em;">
+Continues the study of object oriented programming and the Java language. Topics include file manipulation, method and class definitions, graphic applications, applets, multimedia, events and interfaces.</span>
+</details>
+
+
+<details><summary><span style="font-size:0.75em;">CSCI 236: Web Development <i>(scheduled Spring 2027)</i></span></summary>
+<span style="font-size:0.75em;">
+Emphasizes the client side tools and techniques used to develop web applications. Topics include Java Script, XHTML, cascading style sheets, file transfer protocol and browser compatibility. The course will also discuss effective web page design considerations, including usability, accessibility and information design.</span>
+</details>
+
+<details><summary><span style="font-size:0.75em;">CSCI 390: Junior Seminar <i>(scheduled Spring 2027)</i></span></summary>
+<span style="font-size:0.75em;">
+Ensures that students are prepared for their senior year of study in Computer Science. Students attend class for one hour each week to review material from the lower level courses in the program, (100 and 200 level). Near the end of the semester, each student will take a multi-part exam, which must be passed to continue on.</span>
+</details>
+
+***
+
 <b>Williams College</b> (Instructor, 2025-2026)
 
 <details><summary><span style="font-size:0.75em;">CSCI 317: Foundations of Computational Neuroscience*</span></summary>
