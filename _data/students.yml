@@ -1,0 +1,17 @@
+# Mentored students, grouped. Add new students to the top of a group.
+- group: Summer Students
+  students:
+  - name: Bennett Ptak
+    year: "'28"
+    term: Summer 2026
+    project: "STReaC 2.0: Neural Spike Train Response Classification Toolkit"
+  - name: Nye Hanan
+    year: "'28"
+    term: Summer 2026
+    project: Modeling Network Structure in the Output Nucleus of the Basal Ganglia
+- group: Thesis Students
+  students:
+  - name: Riya Juneja
+    year: "'26"
+    honors: Highest Honors
+    project: A Comparative and Computational Framework for Burst Detection in Neural Spike Data

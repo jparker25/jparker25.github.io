@@ -1,0 +1,153 @@
+# Talks and posters. Any order; pages sort by date (newest first).
+# category: conference | seminar
+# Optional flags: invited: true, organized: "<mini-symposium title>", award: "<award text>"
+- title: Data-Driven Heterogeneous Network Assembly in the Parkinsonian Basal Ganglia
+  date: 2026-07-08
+  format: Oral Presentation
+  venue: SIAM Life Sciences 2026, Huntington Convention Center, Cleveland, OH
+  category: conference
+- title: Data-Driven Network Assembly in the Parkinsonian Basal Ganglia
+  date: 2026-06-02
+  format: Oral Presentation
+  venue: ICMNS 2026, McGill University, Montreal, Canada
+  organized: Oscillatory Transitions and Stability in Neural Networks
+  category: conference
+- title: Modeling an Output Nucleus Integrating Multiple Inhibitory Pathways
+  date: 2024-06-11
+  format: Oral Presentation
+  venue: ICMNS 2024, University College Dublin, Dublin, Ireland
+  category: conference
+- title: >-
+    Diverse responses of a basal ganglia output nucleus integrating multiple input streams in control
+    and dopamine-depleted conditions
+  date: 2023-07-26
+  format: Poster Presentation
+  venue: CNS 2023, 32nd Annual Computational Neuroscience Conference, Kongresshalle, Leipzig, Germany
+  category: conference
+- title: Information Flow in the Basal Ganglia
+  date: 2023-05-18
+  format: Oral Presentation
+  venue: SIAM Dynamical Systems 2023, DoubleTree by Hilton, Portland, Oregon
+  organized: 'Clustering and Chimeras: Spatio-Temporal Dynamics in Biological Systems'
+  category: conference
+- title: Stabilization of Chaotic Neural Networks
+  date: 2023-01-10
+  format: Virtual Poster Presentation
+  venue: Dynamic Days 2023, Zoom
+  category: conference
+- title: Diverse responses of SNr neurons to in vivo optogenetic stimulation of GPe segment in mice
+  date: 2022-11-30
+  format: Virtual Poster Presentation
+  venue: SWEBAGS 2022, Zoom
+  category: conference
+- title: >-
+    Diverse responses of substantia nigra pars reticulata neurons to in vivo optogenetic stimulation of
+    globus pallidus external segment in mice
+  date: 2022-11-12
+  format: Poster Presentation
+  venue: 'Society for Neuroscience 2022, Basal Ganglia: Physiology and Function I, San Diego Convention
+    Center'
+  category: conference
+- title: Classifying and Modeling Diverse Responses of Neurons that Integrate Inhibitory Inputs
+  date: 2022-07-12
+  format: Oral Presentation
+  venue: SIAM Life Sciences 2022, David L. Lawrence Convention Center
+  organized: Data Driven Neural Modeling
+  category: conference
+- title: Existence of Cupolets in Chaotic Hindmarsh-Rose Model
+  date: 2021-06-16
+  format: Virtual Oral Presentation
+  venue: Society for Mathematical Biology 2021 Conference, Zoom
+  award: Won UCR Contributed Talk Award for Mathematical Neuroscience
+  category: conference
+- title: Existence of Cupolets in Chaotic Hindmarsh-Rose Model
+  date: 2021-05-23
+  format: Virtual Oral Presentation
+  venue: SIAM Dynamical Systems 2021, Zoom
+  category: conference
+- title: Cupolets in Hindmarsh-Rose Model and Implications for Mutual Stabilization
+  date: 2020-04-11
+  format: Oral Presentation
+  venue: Graduate Research Conference, University of New Hampshire
+  category: conference
+- title: Sigmoidal Learning Produces Mutual Stabilization in Chaotic Neural Model
+  date: 2019-04-02
+  format: Oral Presentation
+  venue: Graduate Research Conference, University of New Hampshire
+  category: conference
+- title: Mutual Stabilization in Bidirectional Two Cell FitzHugh-Nagumo Neurons
+  date: 2018-04-10
+  format: Oral Presentation
+  venue: Graduate Research Conference, University of New Hampshire
+  category: conference
+- title: A Data-Driven, Network Approach to Modeling an Output Nucleus of the Basal Ganglia
+  date: 2024-02-22
+  format: Oral Presentation
+  venue: Math Bio Seminar, University of Pittsburgh
+  category: seminar
+- title: Data-Driven Dynamical Modeling of a Neuronal Output Nucleus Integrating Multiple Pathways
+  date: 2023-11-30
+  format: Virtual Oral Presentation
+  venue: UNH IAM Seminar Series, University of New Hampshire
+  category: seminar
+- title: >-
+    Modeling diverse responses of a basal ganglia output nucleus integrating multiple input streams in
+    control and dopamine-depleted conditions
+  date: 2023-09-12
+  format: Virtual Oral Presentation
+  venue: CNBC Postdoc Seminar, University of Pittsburgh
+  category: seminar
+- title: The What and Where of Adding Channel Noise to the Hodgkin-Huxley Equations
+  date: 2023-09-07
+  format: Oral Presentation
+  venue: Math Bio Seminar, University of Pittsburgh
+  category: seminar
+- title: Information Flow in the Basal Ganglia
+  date: 2023-04-06
+  format: Oral Presentation
+  venue: Math Bio Seminar, University of Pittsburgh
+  category: seminar
+- title: Controlling Chaos
+  date: 2023-03-13
+  format: Oral Presentation
+  venue: Applied Math Seminar, University of Pittsburgh
+  category: seminar
+- title: 'Viewing communities as coupled oscillators: elementary forms of Lotka-Volterra to Kuramoto'
+  date: 2022-11-17
+  format: Oral Presentation
+  venue: Math Bio Seminar, University of Pittsburgh
+  category: seminar
+- title: Classifying Diverse Responses of Neurons that Integrate Inhibitory Inputs
+  date: 2022-11-01
+  format: Virtual Oral Presentation
+  venue: Maths Neuro Seminar, University of Nottingham, Zoom
+  invited: true
+  category: seminar
+- title: Insights and Advice on Landing, Deciding, and Succeeding as a Postdoc
+  date: 2022-10-27
+  format: Virtual Oral Presentation
+  venue: UNH IAM Graduate Seminar, Zoom
+  category: seminar
+- title: Understanding and Classifying Heterogeneous Neural Responses
+  date: 2022-02-27
+  format: Oral Presentation
+  venue: Math Bio Seminar, University of Pittsburgh
+  category: seminar
+- title: 'Reflections and tips from a recent IAM Grad: Graduate School and Postdoctoral Life'
+  date: 2022-02-17
+  format: Virtual Oral Presentation
+  venue: IAM Graduate Seminar, University of New Hampshire, Zoom
+  category: seminar
+- title: >-
+    Tipping points in open systems: Bifurcation, noise-induced and rate-dependent examples in the climate
+    system
+  date: 2021-10-07
+  format: Oral Presentation
+  venue: Math Bio Seminar, University of Pittsburgh
+  category: seminar
+- title: Chaotic Stabilization in Neural Systems
+  date: 2020-11-19
+  format: Virtual Oral Presentation
+  venue: Applied Mathematics Seminar, University of Colorado Boulder, Zoom
+  invited: true
+  category: seminar

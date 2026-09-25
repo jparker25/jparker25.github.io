@@ -7,3 +7,11 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// Data-driven lists (publications, presentations, teaching)
+.pub, .talk { margin-bottom: 1em; }
+.pub p, .talk p, .course p { margin: 0; }
+.pub__citation, .pub__abstract, .talk__title, .course { font-size: 0.75em; }
+.pub__abstract p, .course p { margin-bottom: 0.5em; }
+.pub { padding-bottom: 1em; border-bottom: 1px solid $border-color; }
+.talk__meta { font-size: 0.6em; }

@@ -6,37 +6,16 @@ author_profile: true
 layout: single
 classes: wide
 ---
+If you are a student and are interested in working with me in some capacity, please contact me at my MCLA email address.
 
-  If you are a student and are interested in working with me in some capacity, please contact me at my MCLA email address.
-
+{% for g in site.data.students %}
 ***
 
-<details><summary>Summer Students</summary>  
+<details><summary>{{ g.group }}</summary>
 <ul>
-  <li> Bennett Ptak '28, <i>Summer 2026</i></li>
-  <ul>
-  <li>STReaC 2.0: Neural Spike Train Response Classification Toolkit</li>
-  </ul>
-  <li> Nye Hanan '28, <i>Summer 2026</i></li>
-  <ul>
-  <li> Modeling Network Structure in the Output Nucleus of the Basal Ganglia</li>
-  </ul>
-</ul>
+{% for s in g.students %}<li>{{ s.name }} {{ s.year }}, <i>{% if s.honors %}{{ s.honors }}{% else %}{{ s.term }}{% endif %}</i>
+<ul><li>{{ s.project }}</li></ul></li>
+{% endfor %}</ul>
 </details>
-  
+{% endfor %}
 ***
-
-***
-
-<details><summary>Thesis Students</summary>
-  
- <ul>
-    <li> Riya Juneja '26, <i>Highest Honors</i></li>
-  <ul>
-  <li>A Comparative and Computational Framework for Burst Detection in Neural Spike Data</li>
-  </ul>
-  </ul>
-  </details>
-
-***
-

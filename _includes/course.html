@@ -1,0 +1,5 @@
+{%- comment -%} One entry from _data/teaching.yml courses. Params: course {%- endcomment -%}
+{%- assign c = include.course -%}
+<details class="course"><summary>{{ c.code }}: {{ c.title }}{% if c.designed %}*{% endif %}{% if c.note %} <i>({{ c.note }})</i>{% endif %}</summary>
+<p>{{ c.description }}</p>
+</details>
