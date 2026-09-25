@@ -1,0 +1,8 @@
+{%- comment -%} News list from _data/news.yml. Params: limit {%- endcomment -%}
+<ul class="news">
+  {%- for item in site.data.news limit: include.limit %}
+  {%- assign d = item.date | append: "" | split: "-" %}
+  {%- capture iso %}{{ d[0] }}-{{ d[1] }}-01{% endcapture %}
+  <li class="news__item"><time class="mono" datetime="{{ d[0] }}-{{ d[1] }}">{{ iso | date: "%b %Y" }}</time><p>{{ item.text }}</p></li>
+  {%- endfor %}
+</ul>

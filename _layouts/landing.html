@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{%- assign author = site.author -%}
+<div id="main" role="main" class="jp-main jp-main--home">
+  <section class="hero">
+    <div class="hero__raster">{% include jp/spike-raster.svg %}</div>
+    <div class="hero__inner">
+      <img class="hero__photo" src="{{ author.avatar | relative_url }}" alt="Portrait of {{ author.name }}" width="168" height="190">
+      <div class="hero__text">
+        <p class="eyebrow">{{ page.hero.eyebrow }}</p>
+        <h1 class="hero__name">{{ author.name }}</h1>
+        <p class="hero__role">{{ page.hero.role }}</p>
+        <p class="hero__tagline">{{ page.hero.tagline }}</p>
+        <ul class="chips" aria-label="Research interests">
+          {% for interest in page.hero.interests %}<li class="chip">{{ interest }}</li>{% endfor %}
+        </ul>
+        <ul class="hero__links">
+          {% for link in author.links %}{% if link.url %}
+          <li><a href="{{ link.url }}"{% unless link.url contains 'mailto:' %} rel="noopener"{% endunless %}><i class="{{ link.icon }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+          {% endif %}{% endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="jp-page__body jp-home">
+    {{ content }}
+  </div>
+</div>

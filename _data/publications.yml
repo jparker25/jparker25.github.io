@@ -2,6 +2,7 @@
 # type: preprint | article | dissertation
 # "John E. Parker" is bolded automatically; mark co-first authors with *.
 # Optional link fields: doi, pdf, code, url
+# area: research area key from _data/research.yml (pd | chaos | software)
 - type: preprint
   title: >-
     Altered SNr activity under dopamine depletion: mechanistic predictions from data-driven network models
@@ -9,6 +10,7 @@
   venue: bioRxiv 2025.08.15.670540
   year: 2025
   doi: 10.1101/2025.08.15.670540
+  area: pd
   abstract: >-
     Sufficient loss of dopamine within the basal ganglia (BG) leads to neuronal activity changes, including
     altered firing rates and firing patterns, thought to underlie parkinsonian motor symptoms. Yet, within
@@ -31,6 +33,7 @@
   venue: bioRxiv 2024.12.09.627637
   year: 2024
   doi: 10.1101/2024.12.09.627637
+  area: pd
   abstract: >-
     Dopamine loss alters the activity of neural circuits in the basal ganglia, contributing to motor symptoms
     of Parkinson’s disease and catalepsy. Treatments that reduce basal ganglia pathophysiology alleviate
@@ -50,6 +53,7 @@
   venue: 'Neurobiology of Disease (Apr. 2024), p. 106512'
   year: 2024
   doi: 10.1016/j.nbd.2024.106512
+  area: pd
   abstract: >-
     Neurons in the substantia nigra reticulata (SNr) transmit information about basal ganglia output to
     dozens of brain regions in thalamocortical and brainstem motor networks. Activity of SNr neurons is
@@ -72,6 +76,8 @@
   venue: 'Journal of Neuroscience Methods 401 (Jan. 2024), p. 110000'
   year: 2024
   doi: 10.1016/j.jneumeth.2023.110000
+  code: https://github.com/jparker25/streac
+  area: software
   abstract: >-
     Background: This work presents a toolbox that implements methodology for automated classification
     of diverse neural responses to optogenetic stimulation or other changes in conditions, based on spike
@@ -99,6 +105,7 @@
   venue: 'Journal of Computational Neuroscience (June 2023)'
   year: 2023
   doi: 10.1007/s10827-023-00853-z
+  area: pd
   abstract: >-
     Parkinson’s disease (PD) and animal models of PD feature enhanced oscillations in several frequency
     bands in the basal ganglia (BG). Past research has emphasized the enhancement of 13-30 Hz beta oscillations.
@@ -121,6 +128,7 @@
   venue: 'Dynamics 3 (2 May 2023), pp. 282–298'
   year: 2023
   doi: 10.3390/dynamics3020017
+  area: chaos
   abstract: >-
     Recent work has highlighted the vast array of dynamics possible within both neuronal networks and
     individual neural models. In this work, we demonstrate the capability of interacting chaotic Hindmarsh–Rose
@@ -143,6 +151,7 @@
   venue: 'Chaos: An Interdisciplinary Journal of Nonlinear Science 32 (11 Nov. 2022), p. 113104'
   year: 2022
   doi: 10.1063/5.0101667
+  area: chaos
   abstract: >-
     This paper reports the first finding of cupolets in a chaotic Hindmarsh–Rose neural model. Cupolets
     (chaotic, unstable, periodic, orbit-lets) are unstable periodic orbits that have been stabilized through
@@ -163,6 +172,7 @@
   venue: 'Chaos: An Interdisciplinary Journal of Nonlinear Science 30 (6 June 2020), p. 063108'
   year: 2020
   doi: 10.1063/5.0002328
+  area: chaos
   abstract: >-
     This paper investigates the interaction between two coupled neurons at the terminal end of a long
     chain of neurons. Specifically, we examine a bidirectional, two-cell FitzHugh–Nagumo neural model
@@ -182,6 +192,7 @@
   authors: John E. Parker
   venue: PhD dissertation, University of New Hampshire (2021)
   year: 2021
+  area: chaos
   abstract: >-
     Recent work has demonstrated that interacting chaotic systems can establish persistent, periodic behavior,
     called mutual stabilization, when certain information is passed through interaction functions. In

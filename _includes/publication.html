@@ -1,9 +1,18 @@
-{%- comment -%} Renders one entry of _data/publications.yml. Params: pub, number (optional) {%- endcomment -%}
+{%- comment -%} One entry of _data/publications.yml as a card. Params: pub, abstract (default true) {%- endcomment -%}
 {%- assign pub = include.pub -%}
-{%- capture link -%}{% if pub.doi %}https://doi.org/{{ pub.doi }}{% else %}{{ pub.url }}{% endif %}{%- endcapture -%}
-<div class="pub">
-<p class="pub__citation">{% if include.number %}({{ include.number }}) {% endif %}{{ pub.authors | replace: "John E. Parker", "<b>John E. Parker</b>" }}. “{{ pub.title }}”. {{ pub.venue }}{% if pub.doi %}; doi: <a href="{{ link }}" target="_blank">{{ pub.doi }}</a>{% elsif pub.url %}. <a href="{{ pub.url }}" target="_blank">Link</a>{% endif %}{% if pub.pdf %} · <a href="{{ pub.pdf }}" target="_blank">PDF</a>{% endif %}{% if pub.code %} · <a href="{{ pub.code }}" target="_blank">Code</a>{% endif %}</p>
-{%- if include.abstract != false and pub.abstract %}
-<details class="pub__abstract"><summary>Abstract</summary><p>{{ pub.abstract }}</p></details>
-{%- endif %}
-</div>
+{%- capture href -%}{% if pub.doi %}https://doi.org/{{ pub.doi }}{% else %}{{ pub.url }}{% endif %}{%- endcapture -%}
+{%- case pub.type -%}{%- when "preprint" -%}{%- assign label = "Preprint" -%}{%- when "dissertation" -%}{%- assign label = "Dissertation" -%}{%- else -%}{%- assign label = "Journal article" -%}{%- endcase -%}
+<article class="pub">
+  <p class="pub__meta"><span class="tag tag--{{ pub.type }}">{{ label }}</span><span class="mono">{{ pub.year }}</span></p>
+  <h3 class="pub__title">{% if href != "" %}<a href="{{ href }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</h3>
+  <p class="pub__authors">{{ pub.authors | replace: "John E. Parker", "<strong>John E. Parker</strong>" }}</p>
+  <p class="pub__venue">{{ pub.venue }}</p>
+  <div class="pub__actions">
+    {%- if pub.doi %}<a class="btn-chip" href="{{ href }}"><i class="fas fa-link" aria-hidden="true"></i> DOI</a>{% elsif pub.url %}<a class="btn-chip" href="{{ pub.url }}"><i class="fas fa-link" aria-hidden="true"></i> Link</a>{% endif -%}
+    {%- if pub.pdf %}<a class="btn-chip" href="{{ pub.pdf }}"><i class="fas fa-file-pdf" aria-hidden="true"></i> PDF</a>{% endif -%}
+    {%- if pub.code %}<a class="btn-chip" href="{{ pub.code }}"><i class="fas fa-code" aria-hidden="true"></i> Code</a>{% endif -%}
+    {%- if include.abstract != false and pub.abstract %}
+    <details class="pub__abstract"><summary class="btn-chip"><i class="fas fa-align-left" aria-hidden="true"></i> Abstract</summary><p>{{ pub.abstract }}</p></details>
+    {%- endif %}
+  </div>
+</article>

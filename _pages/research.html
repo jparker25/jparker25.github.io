@@ -1,0 +1,30 @@
+---
+permalink: /research/
+layout: page
+title: Research
+eyebrow: Research program
+---
+<div class="prose">
+  <p>My research lies in applied dynamical systems and the analysis of high-dimensional nonlinear models. I study how structured perturbations alter qualitative behavior, with emphasis on transitions between dynamical regimes in systems exhibiting nonlinear or chaotic dynamics, often through the lens of neuroscience.</p>
+  <p>I investigate these transitions through a combination of numerical simulation and parameter exploration, using computation as a tool to probe bifurcation structure, stability, and emergent dynamics. Although the applications are largely in neural circuits, the approach is always mathematical: understanding how nonlinear structure organizes behavior in dynamical systems.</p>
+</div>
+
+{% for area in site.data.research %}
+{%- assign pubs = site.data.publications | where: "area", area.key -%}
+<section class="area" id="{{ area.key }}">
+  <p class="area__index mono">0{{ forloop.index }}</p>
+  <div class="area__body">
+    <h2 class="area__title">{{ area.title }}</h2>
+    {% for para in area.body %}<p>{{ para }}</p>{% endfor %}
+    {%- if area.links %}
+    <p class="area__links">{% for l in area.links %}<a class="btn-chip" href="{{ l.url | relative_url }}"><i class="{{ l.icon }}" aria-hidden="true"></i> {{ l.label }}</a>{% endfor %}</p>
+    {%- endif %}
+    {%- if pubs.size > 0 %}
+    <h3 class="area__sub">Related work</h3>
+    <ul class="related">
+      {% for pub in pubs %}<li><a href="{% if pub.doi %}https://doi.org/{{ pub.doi }}{% else %}/publications/{% endif %}">{{ pub.title }}</a> <span class="mono">{{ pub.year }}</span></li>{% endfor %}
+    </ul>
+    {%- endif %}
+  </div>
+</section>
+{% endfor %}

@@ -1,0 +1,58 @@
+---
+permalink: /presentations/
+layout: page
+title: Presentations
+eyebrow: Talks & posters
+lede: Conference talks, posters, and seminars on neural dynamics, chaos, and computational neuroscience.
+---
+{%- assign talks = site.data.presentations | sort: "date" | reverse -%}
+{%- assign conferences = talks | where: "category", "conference" -%}
+{%- assign seminars = talks | where: "category", "seminar" -%}
+{%- assign invited = talks | where: "invited", true -%}
+{%- assign organized = talks | where_exp: "t", "t.organized" -%}
+{%- assign awards = talks | where_exp: "t", "t.award" -%}
+<ul class="stats">
+  <li><span class="stats__n">{{ talks.size }}</span> presentations</li>
+  <li><span class="stats__n">{{ organized.size }}</span> mini-symposia organized</li>
+  <li><span class="stats__n">{{ invited.size }}</span> invited talks</li>
+  <li><span class="stats__n">{{ awards.size }}</span> {% if awards.size == 1 %}award{% else %}awards{% endif %}</li>
+</ul>
+
+<div class="filter" role="group" aria-label="Filter presentations">
+  <button type="button" class="filter__btn" data-filter="all" aria-pressed="true">All <span class="count">{{ talks.size }}</span></button>
+  <button type="button" class="filter__btn" data-filter="conference" aria-pressed="false">Conferences <span class="count">{{ conferences.size }}</span></button>
+  <button type="button" class="filter__btn" data-filter="seminar" aria-pressed="false">Seminars <span class="count">{{ seminars.size }}</span></button>
+</div>
+
+{%- assign years = talks | group_by_exp: "t", "t.date | date: '%Y'" %}
+<div class="timeline">
+  {% for year in years %}
+  <section class="timeline__year">
+    <h2 class="timeline__label mono">{{ year.name }}</h2>
+    <ol class="timeline__items">
+      {% for talk in year.items %}{% include talk.html talk=talk %}{% endfor %}
+    </ol>
+  </section>
+  {% endfor %}
+</div>
+
+<script>
+  (function () {
+    var buttons = document.querySelectorAll('.filter__btn');
+    buttons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var f = btn.getAttribute('data-filter');
+        buttons.forEach(function (b) { b.setAttribute('aria-pressed', b === btn); });
+        document.querySelectorAll('.timeline__year').forEach(function (year) {
+          var shown = 0;
+          year.querySelectorAll('.talk').forEach(function (t) {
+            var on = f === 'all' || t.getAttribute('data-category') === f;
+            t.hidden = !on;
+            if (on) shown++;
+          });
+          year.hidden = shown === 0;
+        });
+      });
+    });
+  })();
+</script>

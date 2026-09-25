@@ -1,0 +1,26 @@
+---
+permalink: /students/
+layout: page
+title: Students
+eyebrow: Mentoring
+lede: Undergraduate research in computational neuroscience, dynamical systems, and scientific software.
+---
+<aside class="callout">
+  <h2 class="callout__title">Interested in research?</h2>
+  <p>If you are a student and are interested in working with me in some capacity, please contact me at my MCLA email address.</p>
+</aside>
+
+{% for g in site.data.students %}
+<section class="section">
+  <h2 class="section__title">{{ g.group }} <span class="count">{{ g.students.size }}</span></h2>
+  <div class="grid">
+    {% for s in g.students %}
+    <article class="card student">
+      <h3 class="student__name">{{ s.name }} <span class="student__year">{{ s.year }}</span></h3>
+      <p class="student__project">{{ s.project }}</p>
+      <p class="student__tags">{% if s.term %}<span class="tag tag--quiet">{{ s.term }}</span>{% endif %}{% if s.honors %}<span class="tag tag--award"><i class="fas fa-award" aria-hidden="true"></i> {{ s.honors }}</span>{% endif %}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}

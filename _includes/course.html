@@ -1,5 +1,10 @@
-{%- comment -%} One entry from _data/teaching.yml courses. Params: course {%- endcomment -%}
+{%- comment -%} One course from _data/teaching.yml. Params: course {%- endcomment -%}
 {%- assign c = include.course -%}
-<details class="course"><summary>{{ c.code }}: {{ c.title }}{% if c.designed %}*{% endif %}{% if c.note %} <i>({{ c.note }})</i>{% endif %}</summary>
-<p>{{ c.description }}</p>
-</details>
+<article class="card course">
+  <p class="course__code mono">{{ c.code }}</p>
+  <h3 class="course__title">{{ c.title }}</h3>
+  {%- if c.designed or c.note %}
+  <p class="course__tags">{% if c.designed %}<span class="tag tag--organized">Designed by me</span>{% endif %}{% if c.note %}<span class="tag tag--quiet">{{ c.note | capitalize }}</span>{% endif %}</p>
+  {%- endif %}
+  <details class="course__desc"><summary>Course description</summary><p>{{ c.description }}</p></details>
+</article>

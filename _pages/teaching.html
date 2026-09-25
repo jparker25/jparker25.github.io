@@ -1,0 +1,18 @@
+---
+permalink: /teaching/
+layout: page
+title: Teaching
+eyebrow: Courses
+lede: Courses I have taught across mathematics, computer science, data science, and physics, with catalog descriptions from each institution.
+---
+{% for inst in site.data.teaching %}
+<section class="section">
+  <header class="section__head">
+    <h2 class="section__title">{{ inst.institution }}</h2>
+    <p class="section__meta mono">{{ inst.role }} · {{ inst.years }}</p>
+  </header>
+  <div class="grid">
+    {% for course in inst.courses %}{% include course.html course=course %}{% endfor %}
+  </div>
+</section>
+{% endfor %}

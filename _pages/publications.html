@@ -1,0 +1,21 @@
+---
+permalink: /publications/
+layout: page
+title: Publications
+eyebrow: Research output
+lede: Journal articles, preprints, and my dissertation. Please feel free to reach out about any of them.
+---
+{%- assign groups = "preprint:Preprints,article:Journal articles,dissertation:Dissertation" | split: "," -%}
+<p class="page-note">* Denotes co-first authorship.</p>
+{% for g in groups %}
+{%- assign parts = g | split: ":" -%}
+{%- assign pubs = site.data.publications | where: "type", parts[0] -%}
+{%- if pubs.size > 0 %}
+<section class="section">
+  <h2 class="section__title">{{ parts[1] }} <span class="count">{{ pubs.size }}</span></h2>
+  <div class="stack">
+    {% for pub in pubs %}{% include publication.html pub=pub %}{% endfor %}
+  </div>
+</section>
+{%- endif %}
+{% endfor %}

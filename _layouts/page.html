@@ -1,0 +1,19 @@
+---
+layout: default
+---
+{%- comment -%}
+  Full-width content page without the author sidebar.
+  Front matter: title, eyebrow (small label above the title), lede (intro sentence).
+{%- endcomment -%}
+<div id="main" role="main" class="jp-main">
+  <article class="jp-page">
+    <header class="jp-page__head">
+      {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
+      <h1 class="jp-page__title">{{ page.title }}</h1>
+      {% if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif %}
+    </header>
+    <div class="jp-page__body">
+      {{ content }}
+    </div>
+  </article>
+</div>

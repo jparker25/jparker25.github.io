@@ -1,6 +1,0 @@
-{%- comment -%} Numbered list of publications of one type. Params: type {%- endcomment -%}
-{%- assign pubs = site.data.publications | where: "type", include.type -%}
-{%- for pub in pubs -%}
-{%- assign n = pubs.size | minus: forloop.index0 -%}
-{%- if pubs.size > 1 %}{% include publication.html pub=pub number=n %}{% else %}{% include publication.html pub=pub %}{% endif %}
-{%- endfor -%}

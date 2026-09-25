@@ -1,0 +1,76 @@
+// Masthead (top navigation) and footer.
+
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: color-mix(in srgb, var(--bg) 85%, transparent);
+  backdrop-filter: saturate(160%) blur(10px);
+  -webkit-backdrop-filter: saturate(160%) blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+.masthead__inner-wrap { max-width: 1200px; padding: 0.7em var(--gutter); font-family: var(--font-sans); }
+
+.greedy-nav {
+  background: transparent;
+  a { color: var(--muted); font-weight: 500; }
+  a:hover { color: var(--text); }
+  .site-title {
+    color: var(--text);
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 1.15rem;
+    letter-spacing: -0.01em;
+    padding-left: 0;
+  }
+  .visible-links a::before { background: var(--accent); height: 2px; bottom: -2px; }
+  .visible-links a[aria-current="page"] { color: var(--text); }
+  .hidden-links {
+    background: var(--surface);
+    border-color: var(--border);
+    box-shadow: var(--shadow);
+    a { color: var(--text); }
+    a:hover { background: var(--surface-2); color: var(--accent); }
+    &::before { border-color: var(--border) transparent; }
+    &::after { border-color: var(--surface) transparent; }
+  }
+  .navicon, .navicon::before, .navicon::after { background: var(--text); }
+  .greedy-nav__toggle { background: transparent; }
+  .greedy-nav__toggle:hover .navicon,
+  .greedy-nav__toggle:hover .navicon::before,
+  .greedy-nav__toggle:hover .navicon::after { background: var(--accent); }
+}
+
+.theme-toggle {
+  align-self: center;
+  flex: 0 0 auto;
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-left: 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--muted);
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+  &:hover { color: var(--accent); border-color: var(--accent); }
+  .theme-toggle__light { display: none; }
+  &[aria-pressed="true"] {
+    .theme-toggle__dark { display: none; }
+    .theme-toggle__light { display: inline; }
+  }
+}
+
+.page__footer {
+  margin-top: 4rem;
+  background: var(--surface-2);
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  footer { max-width: 1200px; padding: 0 var(--gutter); }
+  a { color: var(--muted); }
+  a:hover { color: var(--accent); }
+}
+.page__footer-follow .social-icons li { font-family: var(--font-sans); }
+.page__footer-follow .social-icons .fas,
+.page__footer-follow .social-icons .fab { color: var(--muted); }
+.page__footer-copyright { font-family: var(--font-sans); color: var(--faint); }

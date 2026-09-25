@@ -1,0 +1,18 @@
+{%- comment -%} One entry of _data/presentations.yml. Params: talk {%- endcomment -%}
+{%- assign talk = include.talk -%}
+<li class="talk" data-category="{{ talk.category }}">
+  <time class="talk__date mono" datetime="{{ talk.date | date: '%Y-%m-%d' }}">{{ talk.date | date: "%b %-d" }}</time>
+  <div class="talk__body">
+    <h3 class="talk__title">{{ talk.title }}</h3>
+    <p class="talk__venue">{{ talk.venue }}</p>
+    <p class="talk__tags">
+      <span class="tag">{{ talk.format }}</span>
+      <span class="tag tag--quiet">{% if talk.category == "seminar" %}Seminar{% else %}Conference{% endif %}</span>
+      {%- if talk.invited %}<span class="tag tag--invited">Invited</span>{% endif -%}
+      {%- if talk.organized %}<span class="tag tag--organized">Organized mini-symposium</span>{% endif -%}
+      {%- if talk.award %}<span class="tag tag--award"><i class="fas fa-award" aria-hidden="true"></i> Award</span>{% endif -%}
+    </p>
+    {%- if talk.organized %}<p class="talk__note">Mini-symposium: <em>{{ talk.organized }}</em></p>{% endif -%}
+    {%- if talk.award %}<p class="talk__note">{{ talk.award }}</p>{% endif %}
+  </div>
+</li>
