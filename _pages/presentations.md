@@ -6,7 +6,7 @@ author_profile: true
 layout: single
 classes: wide
 ---
-A list of presentations. A (\*) denotes invited talk, a (\*\*) denotes symposium organization, and (\*\*\*) denotes reward recevied.
+A list of presentations. A (\*) denotes invited talk, a (\*\*) denotes symposium organization, and (\*\*\*) denotes award received.
 
 ***
 
@@ -23,7 +23,7 @@ Organized Mini-symposium: Oscillatory Transitions and Stability in Neural Networ
 <span style="font-size:0.75em;">(12) Modeling an Output Nucleus Integrating Multiple Inhibitory Pathways</span><br><span style="font-size:0.6em;">Oral Presentation, ICMNS 2024, University College Dublin, Dublin, Ireland,<i> 11 June 2024</i></span>
 <br>
 <br>
-<span style="font-size:0.75em;">(11) Diverse responses of a basal ganglia output nucleus integrating multiple input streams in control and dopamine-depleted conditions</span><br><span style="font-size:0.6em;">Poster Presentation, CNS 2023, 32nd Annual Computational Neuroscienc Conference, Kongresshalle, Leipzig, Germany,<i> 26 July 2023</i></span>
+<span style="font-size:0.75em;">(11) Diverse responses of a basal ganglia output nucleus integrating multiple input streams in control and dopamine-depleted conditions</span><br><span style="font-size:0.6em;">Poster Presentation, CNS 2023, 32nd Annual Computational Neuroscience Conference, Kongresshalle, Leipzig, Germany,<i> 26 July 2023</i></span>
 <br>
 <br>
 <span style="font-size:0.75em;">(10**) Information Flow in the Basal Ganglia</span><br><span style="font-size:0.6em;">Oral Presentation, SIAM Dynamical Systems 2023, Double Tree by Hilton, Portland, Oregon,<i> 18 May 2023</i><br>
@@ -40,7 +40,7 @@ Organized Mini-symposium: Clustering and Chimeras: Spatio-Temporal Dynamics in B
 <span style="font-size:0.75em;">(7) Diverse responses of substantia nigra pars reticulata neurons to in vivo optogenetic stimulation of globus pallidus external segment in mice</span><br><span style="font-size:0.6em;">Poster Presentation, Society for Neuroscience 2022, Basal Ganglia: Physiology and Function I, San Diego Convention Center,<i> 12 November 2022</i></span>
 <br>
 <br>
-<span style="font-size:0.75em;">(6**) Classifying and Modeling Diverse Responses of Neurons that Integrate Inhibitory Inputs</span><br><span style="font-size:0.6em;">Oral Presentation, SIAM Life Sciences 2022, David L. Lawrence Conention Center,<i> 12 July 2022</i><br>
+<span style="font-size:0.75em;">(6**) Classifying and Modeling Diverse Responses of Neurons that Integrate Inhibitory Inputs</span><br><span style="font-size:0.6em;">Oral Presentation, SIAM Life Sciences 2022, David L. Lawrence Convention Center,<i> 12 July 2022</i><br>
 Organized Mini-symposium: Data Driven Neural Modeling
 </span>
 <br>
