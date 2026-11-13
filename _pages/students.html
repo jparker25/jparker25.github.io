@@ -16,8 +16,9 @@ lede: Undergraduate research in computational neuroscience, dynamical systems, a
   <div class="grid">
     {% for s in g.students %}
     <article class="card student">
-      <h3 class="student__name">{{ s.name }} <span class="student__year">{{ s.year }}</span></h3>
-      <p class="student__project">{{ s.project }}</p>
+      <h3 class="student__name">{{ s.name }}{% if s.year %} <span class="student__year">{{ s.year }}</span>{% endif %}</h3>
+      <p class="student__project">{% if s.kind %}<span class="student__kind">{{ s.kind }}:</span> {% endif %}{% if s.kind == "Co-advising" %}{{ s.project }}{% else %}<em>{{ s.project }}</em>{% endif %}</p>
+      {%- if s.affiliation %}<p class="student__affiliation">{{ s.affiliation }}</p>{% endif %}
       <p class="student__tags">{% if s.term %}<span class="tag tag--quiet">{{ s.term }}</span>{% endif %}{% if s.honors %}<span class="tag tag--award"><i class="fas fa-award" aria-hidden="true"></i> {{ s.honors }}</span>{% endif %}</p>
     </article>
     {% endfor %}

@@ -250,7 +250,9 @@
 // ---- Students ------------------------------------------------------------
 .student__name { font-size: 1.2rem !important; }
 .student__year { color: var(--muted); font-family: var(--font-sans); font-size: 0.85rem; font-weight: 500; }
-.student__project { color: var(--muted); line-height: 1.5; margin-bottom: 0.8rem !important; }
+.student__project { color: var(--text); line-height: 1.5; margin-bottom: 0.35rem !important; }
+.student__kind { color: var(--muted); font-weight: 500; }
+.student__affiliation { color: var(--muted); font-size: 0.88rem; margin-bottom: 0.8rem !important; }
 
 // ---- Research ------------------------------------------------------------
 .area {
@@ -307,3 +309,53 @@
   .card--link, .pub, .btn-chip { transition: none; }
   .card--link:hover { transform: none; }
 }
+
+// ---- Research (detail) ----------------------------------------------------
+.area-nav { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 2rem 0 0; .mono { color: var(--accent); } }
+.area__tagline {
+  margin: -0.5rem 0 1.25rem;
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--muted);
+}
+.area__body--wide { max-width: none; }
+.area__figure {
+  margin: 1.75rem 0;
+  img {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: #fff; // figures are drawn for white paper, so keep them on white in dark mode too
+    max-height: 480px;
+    object-fit: contain;
+  }
+  figcaption { margin-top: 0.6rem; font-family: var(--font-sans); font-size: 0.85rem; line-height: 1.5; color: var(--muted); }
+}
+.area__credit {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.78rem;
+  color: var(--faint);
+  a { color: inherit; }
+}
+.area__cols {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 0 2rem;
+}
+.bullets {
+  margin: 0;
+  padding-left: 1.1rem;
+  li { margin: 0 0 0.45rem; font-size: 0.95rem; line-height: 1.5; }
+  li::marker { color: var(--accent); }
+}
+.example {
+  margin: 0 0 1.5rem;
+  padding: 0.1rem 0 0.1rem 1.1rem;
+  border-left: 2px solid var(--accent-soft);
+  p { margin: 0 0 0.75rem; }
+}
+.example__title { margin: 0 0 0.4rem; font-size: 1.1rem; font-weight: 600; }

@@ -3,8 +3,10 @@
 <article class="card course">
   <p class="course__code mono">{{ c.code }}</p>
   <h3 class="course__title">{{ c.title }}</h3>
-  {%- if c.designed or c.note %}
-  <p class="course__tags">{% if c.designed %}<span class="tag tag--organized">Designed by me</span>{% endif %}{% if c.note %}<span class="tag tag--quiet">{{ c.note | capitalize }}</span>{% endif %}</p>
+  {%- if c.designed or c.terms %}
+  <p class="course__tags">{% if c.designed %}<span class="tag tag--organized">Designed by me</span>{% endif %}{% for t in c.terms %}<span class="tag tag--quiet">{{ t }}</span>{% endfor %}</p>
   {%- endif %}
+  {%- if c.description %}
   <details class="course__desc"><summary>Course description</summary><p>{{ c.description }}</p></details>
+  {%- endif %}
 </article>

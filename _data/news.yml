@@ -1,4 +1,10 @@
 # Short news items for the home page, newest first. `date` can be YYYY-MM or YYYY-MM-DD.
+- date: 2026-11
+  text: >-
+    Our paper on medial SNr stimulation for sustained motor recovery in dopamine-depleted mice was accepted
+    in <em>Nature Neuroscience</em>. See <a href="/publications/">Publications</a>.
+- date: 2026-11
+  text: Gave an invited talk on data-driven network assembly in the parkinsonian basal ganglia at the Brandeis University Math Bio Seminar.
 - date: 2026-09
   text: Started as Assistant Professor of Mathematics and Computer Science at <a href="https://www.mcla.edu">MCLA</a>.
 - date: 2026-07

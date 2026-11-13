@@ -3,11 +3,15 @@ permalink: /research/
 layout: page
 title: Research
 eyebrow: Research program
+lede: Mathematical neuroscience asking how structured perturbations reshape the behavior of nonlinear systems, and what moves a neural circuit from healthy to pathological activity.
 ---
 <div class="prose">
-  <p>My research lies in applied dynamical systems and the analysis of high-dimensional nonlinear models. I study how structured perturbations alter qualitative behavior, with emphasis on transitions between dynamical regimes in systems exhibiting nonlinear or chaotic dynamics, often through the lens of neuroscience.</p>
-  <p>I investigate these transitions through a combination of numerical simulation and parameter exploration, using computation as a tool to probe bifurcation structure, stability, and emergent dynamics. Although the applications are largely in neural circuits, the approach is always mathematical: understanding how nonlinear structure organizes behavior in dynamical systems.</p>
+  <p>The research draws on dynamical systems theory, chaos control, and data-driven modeling, working at scales from single neurons to large, heterogeneous circuits. Three connected directions share a common thread: models are built to match real data, analyzed with the tools of dynamical systems, and used to generate predictions that experiments can test. Specific projects below serve as examples of each direction; the underlying methods carry over to other circuits and to nonlinear systems beyond neuroscience.</p>
 </div>
+
+<nav class="area-nav" aria-label="Research directions">
+  {% for area in site.data.research %}<a class="btn-chip" href="#{{ area.key }}"><span class="mono">0{{ forloop.index }}</span> {{ area.title }}</a>{% endfor %}
+</nav>
 
 {% for area in site.data.research %}
 {%- assign pubs = site.data.publications | where: "area", area.key -%}
@@ -15,10 +19,47 @@ eyebrow: Research program
   <p class="area__index mono">0{{ forloop.index }}</p>
   <div class="area__body">
     <h2 class="area__title">{{ area.title }}</h2>
-    {% for para in area.body %}<p>{{ para }}</p>{% endfor %}
+    {% if area.tagline %}<p class="area__tagline">{{ area.tagline }}</p>{% endif %}
+    {% for para in area.body %}<p>{{ para }}</p>
+    {% endfor %}
+
+    {%- if area.examples %}
+    <h3 class="area__sub">Examples</h3>
+    {% for ex in area.examples %}
+    <div class="example">
+      <h4 class="example__title">{{ ex.title }}</h4>
+      <p>{{ ex.text }}</p>
+      {%- for fig in ex.figures %}
+      <figure class="area__figure">
+        <img src="{{ fig.src | relative_url }}" alt="{{ fig.alt }}" loading="lazy">
+        <figcaption>{{ fig.caption }}{% if fig.credit %} <span class="area__credit">Source: {% if fig.credit_url %}<a href="{{ fig.credit_url }}">{{ fig.credit }}</a>{% else %}{{ fig.credit }}{% endif %}</span>{% endif %}</figcaption>
+      </figure>
+      {%- endfor %}
+    </div>
+    {% endfor %}
+    {%- endif %}
+
     {%- if area.links %}
     <p class="area__links">{% for l in area.links %}<a class="btn-chip" href="{{ l.url | relative_url }}"><i class="{{ l.icon }}" aria-hidden="true"></i> {{ l.label }}</a>{% endfor %}</p>
     {%- endif %}
+
+    {%- if area.next or area.students %}
+    <div class="area__cols">
+      {%- if area.next %}
+      <div>
+        <h3 class="area__sub">Open questions</h3>
+        <ul class="bullets">{% for q in area.next %}<li>{{ q }}</li>{% endfor %}</ul>
+      </div>
+      {%- endif %}
+      {%- if area.students %}
+      <div>
+        <h3 class="area__sub">Student projects</h3>
+        <ul class="bullets">{% for q in area.students %}<li>{{ q }}</li>{% endfor %}</ul>
+      </div>
+      {%- endif %}
+    </div>
+    {%- endif %}
+
     {%- if pubs.size > 0 %}
     <h3 class="area__sub">Related work</h3>
     <ul class="related">
@@ -28,3 +69,8 @@ eyebrow: Research program
   </div>
 </section>
 {% endfor %}
+
+<aside class="callout">
+  <h2 class="callout__title">Research with undergraduates</h2>
+  <p>Every part of this program has room for students, with projects that start from where you are. With calculus and a bit of programming, you can simulate a model neuron, build a return map, or classify real spike trains within a semester, and then take on open questions through summer research or a senior thesis. Along the way you pick up numerical methods, dynamical systems, data analysis, and Python. Everything runs on a laptop, with no wet lab required. <a href="/students/">See current and past student projects →</a></p>
+</aside>

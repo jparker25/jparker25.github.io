@@ -1,51 +1,156 @@
-# Research areas shown on /research/ and summarized on the home page.
-# key links publications (area: <key> in publications.yml) to each area.
-- key: pd
-  title: Parkinson's Disease Modeling
-  short: Data-driven network models of the basal ganglia output nucleus in health and dopamine depletion.
+# Research directions shown on /research/ and summarized on the home page.
+# Each direction states a broad idea; `examples` are specific projects that illustrate it.
+# key links publications (area: <key> in publications.yml) to each direction.
+# Fields: title, tagline, short (home page card), body (paragraphs, HTML allowed),
+# examples (title, text, figures), next (open questions), students (project ideas), links
+# figures: src, alt, caption, credit, credit_url
+# Voice: write about the science, not the researcher (no "I", "my", or "we").
+- key: circuits
+  title: Data-Driven Modeling of Neural Circuits
+  tagline: Models that capture the variability of real circuits, used to find what changes in disease.
+  short: >-
+    Building circuit models constrained by the full variability of experimental recordings, then using them
+    to uncover the mechanisms behind pathological activity.
   body:
     - >-
-      Loss of dopamine within the basal ganglia (BG) leads to neuronal activity changes, including altered
-      firing rates and firing patterns, thought to underlie parkinsonian motor symptoms. Yet, within BG
-      neuronal populations, baseline activity and responses to inputs are highly variable, complicating
-      efforts to identify key factors associated with pathological changes.
+      Neurons in the same brain region rarely behave alike, so a model built from one "typical" cell misses
+      how a real population works. This approach builds networks of biophysical model neurons whose
+      variability matches recorded populations, and accepts a model only when its statistics are
+      indistinguishable from the data. A model that passes those tests becomes a testbed: its parameters can
+      be perturbed systematically to find which biological changes move a circuit from healthy to
+      pathological activity, producing predictions that experiments can check.
     - >-
-      I develop a novel approach to constructing heterogeneous biophysical computational neural models that
-      statistically agrees with diverse firing properties observed across slice and <i>in vivo</i> recordings
-      of the substantia nigra pars reticulata (SNr) in healthy and diseased rodents. The model reproduces
-      diverse responses to GABAergic stimulation and enables systematic exploration of parameter
-      perturbations to identify mechanisms for diseased network dynamics and responses to stimulation.
-- key: chaos
-  title: Chaotic Dynamics and Control in Neural Systems
-  short: Stabilizing chaotic neural dynamics onto cupolets, and how control propagates through networks.
+      The framework is general and applies to any circuit with enough recordings to constrain it. Current
+      work centers on the basal ganglia, with extensions to other circuits, such as those linking the amygdala
+      and prefrontal cortex, beginning to take shape.
+  examples:
+    - title: The basal ganglia in Parkinson's disease
+      text: >-
+        Networks of model neurons from the substantia nigra pars reticulata (SNr), the main output of the
+        basal ganglia, were tuned against recordings from healthy mice and then perturbed to reproduce the
+        firing seen after dopamine loss. The search points to a reduction in one ion channel, TRPC3, as one of
+        the most reliable drivers of the Parkinsonian state. The models are built around recordings from Aryn
+        Gittis's group at Carnegie Mellon, so predictions feed directly back to experiments.
+      figures:
+        - src: /assets/images/research/snr-modeling-pipeline.png
+          alt: >-
+            Flowchart of the modeling pipeline: slice networks are simulated and tuned against recordings,
+            extended to in vivo conditions, perturbed to match dopamine-depleted data, and finally tested with
+            simulated stimulation.
+          caption: >-
+            The modeling pipeline, from building and tuning networks against slice recordings, through in vivo
+            and dopamine-depleted conditions, to simulated stimulation experiments.
+          credit: Parker et al., bioRxiv 2025, Fig. 1
+          credit_url: https://doi.org/10.1101/2025.08.15.670540
+    - title: Rhythms passed between brain regions
+      text: >-
+        A related network model shows how slow delta-band rhythms travel from the globus pallidus into the SNr
+        after dopamine depletion, and why the SNr spontaneously splits into two groups of neurons firing out
+        of phase with each other.
+  next:
+    - Mean-field reductions that make the healthy-to-diseased transition tractable with bifurcation theory.
+    - Probabilistic methods that estimate which parameter values best explain the data, rather than a yes/no fit.
+    - Carrying the approach to new circuits and new datasets.
+  students:
+    - Explore bifurcations in a single model neuron.
+    - Build and test simplified versions of a circuit model.
+    - Compare model output against real recordings.
+- key: control
+  title: Control of Nonlinear and Chaotic Dynamics
+  tagline: How small, well-timed inputs reshape complex dynamics.
+  short: >-
+    Using small, structured perturbations to stabilize hidden periodic behavior in chaotic systems, and
+    following how that control spreads through coupled networks.
   body:
     - >-
-      Nonlinear dynamical systems often exhibit rich qualitative behavior, including chaos, where trajectories
-      evolve on strange attractors with sensitive dependence on initial conditions. This research develops a
-      framework to control that chaotic neural behavior through perturbations that take advantage of the
-      structure of the strange attractor. Binary control sequences are applied at prescribed intersections
-      with Poincare sections that stabilize unstable periodic orbits, resulting in structures called cupolets
-      (chaotic unstable periodic orbit-lets).
-    - >-
-      Extending this work to networks of coupled oscillators, we find how local control signals propagate
-      through graph structures and how coupling reshapes the global stability landscape. Current directions
-      include characterizing when distinct sequences generate homologous periodic orbits and how attractor
-      geometry constrains admissible control sequences.
-- key: software
-  title: Scientific Software and Computational Methods
-  short: Open-source, reproducible tools for classifying and analyzing neural spike trains.
+      Chaotic systems never repeat exactly, yet they contain infinitely many periodic patterns that are
+      normally unstable. Small, well-timed perturbations can steer a chaotic system onto one of these
+      patterns, turning irregular behavior into a reliable rhythm without forcing it. The central questions
+      are geometric: which perturbations succeed, why the same perturbation can lead to different outcomes,
+      and how control signals travel when many such systems are coupled together. Neuron models, with their
+      rich bursting dynamics, make an ideal setting for these questions.
+  examples:
+    - title: Taming chaotic bursting in a single neuron
+      text: >-
+        In the Hindmarsh–Rose neuron model, small kicks chosen by a binary code are applied each time the
+        trajectory crosses one of two checkpoints in phase space (Poincaré sections). Repeating the right
+        code locks the neuron onto a periodic orbit called a <em>cupolet</em>. Nearly every short code
+        produces one, yet the same code can lead to different rhythms depending on where control begins, a
+        puzzle about how control reshapes the return map of the system.
+      figures:
+        - src: /assets/images/research/cupolet-c01011.png
+          alt: >-
+            Three-dimensional plot of a closed, repeating blue trajectory of the Hindmarsh–Rose neuron model
+            that loops several times before returning to its start.
+          caption: >-
+            A cupolet: control turns the model neuron's chaotic bursting into this repeating orbit, produced by
+            the control code 01011.
+          credit: Parker &amp; Short, Chaos 2022, Fig. 7
+          credit_url: https://doi.org/10.1063/5.0101667
+        - src: /assets/images/research/homologous-cupolets-c11.png
+          alt: >-
+            Top: two different closed 3D orbits. Bottom: their voltage traces over time, showing two different
+            repeating bursting patterns.
+          caption: >-
+            Same code, different rhythm: the control code 11 stabilizes either of these two orbits (top), with
+            distinct firing patterns (bottom), depending on where control begins.
+          credit: Parker &amp; Short, Chaos 2022, Fig. 10A–D
+          credit_url: https://doi.org/10.1063/5.0101667
+    - title: Stabilization spreading through networks
+      text: >-
+        When one neuron's activity is translated into control signals for another, chaotic neurons can
+        stabilize each other. In the right network layouts, control applied to a single neuron brings an
+        entire loop of chaotic neurons into rhythm. This work continues through a co-advised mathematics
+        Ph.D. project at the University of New Hampshire.
+  next:
+    - Explain why one control sequence can produce several different rhythms.
+    - Describe which sequences succeed in terms of the system's symbolic dynamics.
+    - Understand how coupling strength and network structure govern the spread of control.
+  students:
+    - Compute return maps and implement a control scheme numerically.
+    - Search for control sequences that produce more than one rhythm.
+    - Simulate small networks and compare how different layouts synchronize.
+- key: data
+  title: Quantitative Methods for Neural Data
+  tagline: Statistics and machine learning that connect models to experiments.
+  short: >-
+    Open-source statistical and machine-learning tools for characterizing neural activity and comparing
+    models with recordings.
   body:
     - >-
-      This research direction focuses on the development of computational frameworks for systematic analysis
-      and classification of dynamical behavior in neural models and experimental data. The STReaC (Spike
-      Train Response and Classification) toolbox provides an open-source reproducible Python pipeline for
-      comparing spike train responses to a reference period for enhanced classification of response types.
-    - >-
-      Recent work has focused on developing supervised classification of neural spike trains as either being
-      healthy or diseased (Parkinsonian). This classifier has been used to measure the performance of novel
-      intervention for motor rescue in rodents. Additionally, current work is developing a library for
-      improved burst-detection through integration of multiple algorithms. These tools enable open-source,
-      robust, and reproducible feature extraction of neural spike trains.
+      Connecting models to experiments depends on reliable ways to summarize noisy, varied recordings. This
+      direction develops reproducible, open-source methods: nonparametric statistics for detecting how
+      neurons respond to stimulation, distributional comparisons for validating models, and machine learning
+      for finding the features that set one firing regime apart from another.
+  examples:
+    - title: Classifying responses to stimulation
+      text: >-
+        STReaC (Spike Train Response Classification) is a Python toolbox that decides whether a neuron was
+        excited, inhibited, both, or unaffected by a stimulus by comparing its firing against a shuffled
+        version of its own baseline, with no assumptions about the shape of the response. It has helped show
+        how dopamine loss weakens particular inhibitory inputs to the basal ganglia's output.
+      figures:
+        - src: /assets/images/research/streac-response-types.png
+          alt: >-
+            Seven small plots of firing rate over time, each with a baseline period in black and a stimulation
+            period in blue, illustrating complete inhibition, no effect, partial inhibition, excitation,
+            adapting inhibition, and two biphasic responses.
+          caption: >-
+            The seven response types STReaC distinguishes in recorded neurons. Black is baseline firing and blue
+            is firing during stimulation.
+          credit: Parker et al., J. Neurosci. Methods 2024, Fig. 7
+          credit_url: https://doi.org/10.1016/j.jneumeth.2023.110000
+    - title: Finding signatures of disease
+      text: >-
+        A small neural network trained on simple features of each spike train (firing rate, regularity,
+        rhythmic power, and bursting) separates healthy from Parkinsonian recordings better than unsupervised
+        clustering, and the features it relies on point to slow rhythms and bursting as the clearest
+        signatures of disease. Student projects have extended this work to burst detection and a
+        next-generation version of STReaC.
+  students:
+    - Classify real spike trains with statistical and machine-learning tools.
+    - Compare and combine burst-detection algorithms.
+    - Add features to open-source analysis toolboxes.
   links:
     - label: STReaC on GitHub
       url: https://github.com/jparker25/streac

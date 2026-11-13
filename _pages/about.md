@@ -26,6 +26,6 @@ I completed my undergraduate studies at [Elon University](https://www.elon.edu/u
     <li><span class="mono">2025–26</span><div><strong>Visiting Assistant Professor</strong>, Computer Science, Williams College</div></li>
     <li><span class="mono">2021–25</span><div><strong>Postdoctoral Associate</strong>, Mathematics, University of Pittsburgh</div></li>
     <li><span class="mono">2016–21</span><div><strong>PhD, Applied Mathematics</strong>, University of New Hampshire</div></li>
-    <li><span class="mono">2010–14</span><div><strong>BS, Physics</strong>, Elon University</div></li>
+    <li><span class="mono">2010–14</span><div><strong>BS, Physics</strong>, <em>magna cum laude</em>, Elon University</div></li>
   </ol>
 </section>

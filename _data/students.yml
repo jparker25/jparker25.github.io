@@ -1,17 +1,32 @@
 # Mentored students, grouped. Add new students to the top of a group.
-- group: Summer Students
+# Fields: name, year (class year, optional), term, project, kind (e.g. Thesis, Poster),
+# honors (optional), affiliation (program / institution)
+- group: Graduate Students
   students:
-  - name: Bennett Ptak
-    year: "'28"
-    term: Summer 2026
-    project: "STReaC 2.0: Neural Spike Train Response Classification Toolkit"
-  - name: Nye Hanan
-    year: "'28"
-    term: Summer 2026
-    project: Modeling Network Structure in the Output Nucleus of the Basal Ganglia
+  - name: Daniel Bujno
+    term: May 2026 – Present
+    kind: Co-advising
+    project: Mathematics Ph.D. minor research project on stabilization of neural systems
+    affiliation: University of New Hampshire
 - group: Thesis Students
   students:
   - name: Riya Juneja
     year: "'26"
-    honors: Highest Honors
+    kind: Thesis
     project: A Comparative and Computational Framework for Burst Detection in Neural Spike Data
+    honors: Highest Honors
+    affiliation: Computer Science, Williams College
+- group: Summer Research Students
+  students:
+  - name: Bennett Ptak
+    year: "'28"
+    term: Summer 2026
+    kind: Poster
+    project: "STReaC 2.0: Neural Spike Train Response Classification Toolkit"
+    affiliation: Williams Summer Science Program, Williams College
+  - name: Nye Hanan
+    year: "'28"
+    term: Summer 2026
+    kind: Poster
+    project: Modeling Network Structure in the Output Nucleus of the Basal Ganglia
+    affiliation: Williams Summer Science Program, Williams College

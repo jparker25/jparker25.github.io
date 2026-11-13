@@ -3,7 +3,7 @@
 {%- capture href -%}{% if pub.doi %}https://doi.org/{{ pub.doi }}{% else %}{{ pub.url }}{% endif %}{%- endcapture -%}
 {%- case pub.type -%}{%- when "preprint" -%}{%- assign label = "Preprint" -%}{%- when "dissertation" -%}{%- assign label = "Dissertation" -%}{%- else -%}{%- assign label = "Journal article" -%}{%- endcase -%}
 <article class="pub">
-  <p class="pub__meta"><span class="tag tag--{{ pub.type }}">{{ label }}</span><span class="mono">{{ pub.year }}</span></p>
+  <p class="pub__meta"><span class="tag tag--{{ pub.type }}">{{ label }}</span>{% if pub.status %}<span class="tag tag--award">{{ pub.status | capitalize }}</span>{% endif %}<span class="mono">{{ pub.year }}</span></p>
   <h3 class="pub__title">{% if href != "" %}<a href="{{ href }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</h3>
   <p class="pub__authors">{{ pub.authors | replace: "John E. Parker", "<strong>John E. Parker</strong>" }}</p>
   <p class="pub__venue">{{ pub.venue }}</p>
