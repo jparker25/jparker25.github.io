@@ -2,12 +2,13 @@
 # type: preprint | article | dissertation
 # "John E. Parker" is bolded automatically; mark co-first authors with *.
 # Optional link fields: doi, pdf, code, url
-# status: e.g. accepted, in press (shown as a tag until the final citation is in)
+# status: e.g. submitted, accepted, in press (shown as a tag until the final citation is in)
 # area: research area key from _data/research.yml (circuits | control | data)
 - type: preprint
   title: >-
     Altered SNr activity under dopamine depletion: mechanistic predictions from data-driven network models
   authors: John E. Parker, Asier Aristieta, Ya Emma Gao, Aryn H. Gittis, and Jonathan E. Rubin
+  status: submitted
   venue: bioRxiv 2025.08.15.670540
   year: 2025
   doi: 10.1101/2025.08.15.670540

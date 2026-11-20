@@ -1,6 +1,11 @@
 # Short news items for the home page, newest first. `date` can be YYYY-MM or YYYY-MM-DD.
 - date: 2026-11
   text: >-
+    Submitted our data-driven SNr network modeling paper, which predicts that reduced TRPC3 conductance drives
+    altered SNr activity after dopamine depletion, for journal review. Read the
+    <a href="https://doi.org/10.1101/2025.08.15.670540">preprint on bioRxiv</a>.
+- date: 2026-11
+  text: >-
     Our paper on medial SNr stimulation for sustained motor recovery in dopamine-depleted mice was accepted
     in <em>Nature Neuroscience</em>. See <a href="/publications/">Publications</a>.
 - date: 2026-11
